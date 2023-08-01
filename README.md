@@ -18,7 +18,7 @@ Make sure you have all the below dependencies setup with this project.
 
 ##  This sample project depends on below Unity packages:
 - [AR Foundation] (https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html) . For this project, AR Foundation Version 4.2.8
-* [Google ARCore XR Plug-in on Android] https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.1/manual/index.html. FOr this project Version 4.2.8
+* [Google ARCore XR Plug-in on Android] https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.1/manual/index.html. For this project Version 4.2.8
 
 ## How to use this AR Project
 - Connect your android device to the system.
