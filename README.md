@@ -124,12 +124,10 @@ To achieve particles with the bird shape. I changed the shape to sprite renderer
 
 - The Output Result:
 
-To generate the particle colours along with the bird shape, just unselct/un check the game object from inspector pane and this will provide the result with bird shape below.
+To generate the particle colours along with the bird shape, just unselct/un-check the game object from inspector pane and this will provide the result with bird shape below.
 
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/ec127266-1861-4ba9-8b9e-e29a9cf4b920)
 
-
-
-
+Now we can reuse this particle system to prefab and attach that prefab to the ARTrackedIMageManager scriptscript, so that particle effects will be generated that inherits from image characterstics.
 
 
