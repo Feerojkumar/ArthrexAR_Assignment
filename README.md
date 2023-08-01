@@ -20,7 +20,7 @@ Make sure you have all the below dependencies setup with this project.
 - [AR Foundation] (https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html) . For this project, AR Foundation Version 4.2.8
 * [Google ARCore XR Plug-in on Android] https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.1/manual/index.html. FOr this project Version 4.2.8
 
-## How to use these AR Project
+## How to use this AR Project
 - Connect your android device to the system.
 
 - You can build this project directly to any Android device. Once you build and run this app, ArthreX1.0 app will be installed on your device.
