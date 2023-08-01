@@ -74,7 +74,7 @@ For Example, create particles using
 - Particle effects with Texture sheet animation technique , 
 
 - Particle effects with the sprite renderer.
-- 
+  
 - Particle effects with Mesh renderer.
   
 For this project, i have used the sprite renderer. 
