@@ -85,7 +85,7 @@ Now to create sprite,
 
 #### Importing an image into Unity.
 
-I would like to import only the bird without any background. To eliminate the background colours from the image, in photoshop i removed the RGB value and saved it in a png format and them imported to Unity.
+I would like to import only the bird without any background. To eliminate the background colours from the image, using photoshop i removed the RGB value and saved it in a png format and them imported to Unity.
 
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/d21468db-0fdc-4215-98ce-54b894b05fc7)
 
