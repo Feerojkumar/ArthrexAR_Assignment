@@ -23,7 +23,7 @@ Make sure you have all the below dependencies setup with this project.
 
 - You can build this project directly to any Android device. Once you build and run this app, ArthreX1.0 app will be installed on you device.
 
-- You can test this app by opening the ArthreX1.0 app in your Andoid device. The app start runniing and opens the AR camera and show it to the bird picture used and it will project the particle effects as shown below.
+- You can test this app by opening the ArthreX1.0 app from your Andoid device. The app start running and opens an AR camera view, just show it to the kingfisher bird picture used and it will project the particle effects as shown below.
   ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/83a9b4d8-fc2b-4093-8f11-1db26e4b7efa)
 
 
