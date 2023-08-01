@@ -47,7 +47,7 @@ As with any other Unity project, go to Build Settings, select your target platfo
 
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/562e7c3e-13ae-4a41-95cc-732e8b314de4)
 
-## Approach - Use any image of choice for tracking.
+## Approach - Use any image of choice for image tracking.
 Created an empty sample scene, then added the Add the AR session and AR session Origin components in your scene. It contains a Camera and any GameObject s created from detected features, such as planes or point clouds.
 
 In AR session Origin, Added the ARTrackedIMageManager script. The tracked image manager is a type of trackable manager and performs 2D image tracking.
