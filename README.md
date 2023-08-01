@@ -32,7 +32,7 @@ Make sure you have all the below dependencies setup with this project.
 
 ## To build to device, follow the steps below:
 
-- Install Unity 2021.3.14f1 and clone this repository.
+- Install Unity 2021.3.14f1 and download this repository.
 
 - Open the Unity project at the root of this repository.
 
