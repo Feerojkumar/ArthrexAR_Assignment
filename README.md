@@ -68,7 +68,15 @@ GIve the name to the added image to sparrow. And specify the physical size and c
 ## Approach - Project interactive art with particles which inherit image characteristics.
 
 There are various approaches we can follow in order to create the particles which inherit image charachterstics. 
-For Example, create particles usine texture sheet animation technique with particle effects, using the sprite renderer etc. For this project, i have used the sprite renderer. 
+For Example, create particles using 
+
+- Particle effects with Texture sheet animation technique , 
+
+- Particle effects with the sprite renderer.
+- 
+- Particle effects with Mesh renderer.
+  
+For this project, i have used the sprite renderer. 
 
 First took the bird image as a reference to create the particle effects. imported the bird image into the scene. and the convert the image to sprite. We can convert the image to sprite in unity.
 
