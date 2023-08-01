@@ -79,8 +79,9 @@ For Example, create particles using below techniques and reuse that as a prefab.
   
 For this project, i have used the particles sprite renderer. 
 
-- Now to create sprite, 
-- First i took the bird image as a reference to create the particle effects. imported the bird image into the scene. and the convert the image to sprite. We can convert the image to sprite in unity.
+Now to create sprite, 
+- First i took the bird image as a reference to create the particle effects.
+- Imported the bird image into the scene. and the convert the image to sprite. Actually we can convert the image to sprite in unity itself.
 
 #### Importing an image into Unity.
 
