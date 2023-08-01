@@ -19,9 +19,13 @@ Make sure you have all the below dependencies setup with this project.
 * [Google ARCore XR Plug-in on Android] https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.1/manual/index.html. FOr this project Version 4.2.8
 
 ## How to use these AR Project
-Connect your android device to the system.
+- Connect your android device to the system.
 
-You can build this project directly to any Android device.
+- You can build this project directly to any Android device. Once you build and run this app, ArthreX1.0 app will be installed on you device.
+
+- You can test this app by opening the ArthreX1.0 app in your Andoid device. The app start runniing and opens the AR camera and show it to the bird picture used and it will project the particle effects as shown below.
+  ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/83a9b4d8-fc2b-4093-8f11-1db26e4b7efa)
+
 
 ## To build to device, follow the steps below:
 
@@ -44,7 +48,7 @@ As with any other Unity project, go to Build Settings, select your target platfo
 ## Approach - Use any image of choice for tracking.
 Created an empty sample scene, then added the Add the AR session and AR session Origin components in your scene. It contains a Camera and any GameObject s created from detected features, such as planes or point clouds.
 
-In AR session Origin, Add the ARTrackedIMageManager component script. The tracked image manager is a type of trackable manager and performs 2D image tracking.
+In AR session Origin, Added the ARTrackedIMageManager script. The tracked image manager is a type of trackable manager and performs 2D image tracking.
 The tracked image manager creates GameObjects for each detected image in the environment. Before an image can be detected, the manager must be instructed to look for a set of reference images compiled into a reference image library. It only detects images in this library.
 
 In Assets, Created a Folder called MyReferenceLibrary, inside the folder create a Reference image library. The tracked image will be inserted here.
