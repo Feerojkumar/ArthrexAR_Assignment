@@ -1,7 +1,7 @@
 # ArthrexAR_Assignment
 This is a Augmented Reality (AR) Image tracking app which demonstrates creating particle effects overlay on top of an image. The app tracks an image in the scene and projects particles. Here we can use any any sample image of our choice for image tracking. And then Projected interactive art with particles which inherit image characteristics. 
 
-I have used the beautiful kingfisher bird image for this project.
+I have used the beautiful kingfisher/Sparrow bird image for this project.
 
 ![andrew-pons-lylCw4zcA7I-unsplash](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/58f281d0-f047-4149-a1b9-0bf76466e2d2)
 
@@ -132,4 +132,46 @@ To generate the particle colours along with the bird shape, just unselct/un-chec
 
 Now we can reuse this particle system as a prefab and attach that prefab to the ARTrackedIMageManager scriptscript, so that particle effects will be generated that inherits from image characterstics.
 
+Hoever, using a Sprite Renderer for particles in Unity may not provide the best result. Particle systems typically use textures as their source, not Sprite Renderers directly. Here's how we can achieve the effect like to track an image and generate particles that inherit the characteristics of the tracked image. :
 
+To achieve a particle system that inherits a shape from an image, you can use a technique called "Sprite-based Particle Emission." This approach involves using a grayscale image as an alpha map to determine where particles should be emitted in the particle system, creating a shape that matches the image. Here's how you can do it:
+
+#### Prepare Your Grayscale Image:
+
+- You'll need a grayscale image where the white areas represent where particles should be emitted and the black areas represent where particles shouldn't be emitted. You can create this image using graphic design software or obtain it from other sources.
+Create a Particle System:
+
+- Create a new GameObject or use an existing one to host the particle system.
+Add a Particle System component to the GameObject.
+#### Set the Material:
+
+- Create a material for your particle system that uses the grayscale image as its alpha map. Here's how:
+In your Project panel, create a new Material asset.
+Select the material and in the Inspector panel, set the Shader to "Particles/Standard Surface."
+In the Albedo section, assign the grayscale image to the Texture field.
+#### Configure Particle System:
+
+- In the Particle System component's Renderer settings, assign the material you created to the "Material" field.
+#### Use the Alpha Map for Emission:
+
+- In the Particle System component, go to the Emission module.
+Set the Rate over Time to control the number of particles emitted per second.
+Enable the "Use Meshes" checkbox.
+In the "Mesh" dropdown, select "Sprite" to use the sprite's shape for emission.
+Drag and drop the grayscale image into the "Texture" field. Unity will use this texture as an alpha map to determine where particles are emitted.
+#### Adjust Particle System Settings:
+
+- Adjust other particle system settings (such as size, speed, lifetime) to achieve the desired particle effect.
+  ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/604ad257-1ebd-48e1-8124-999daa430ef5)
+  ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/581c218d-16e2-4181-8275-5a0304a771b8)
+
+
+#### Create a Particle System Prefab:
+
+- With your particle system GameObject selected, drag and drop it into the Assets panel to create a prefab.
+Now, when you instantiate this prefab in your scenes, the Particle System will emit particles based on the shape of the grayscale image. The white areas of the image will emit particles, creating a particle system that inherits its shape from the image.
+
+- Keep in mind that this technique provides a static shape for the particle emission. If you need more dynamic or complex shapes, you might need to use more advanced techniques or shaders. Additionally, experiment with the particle system settings to achieve the desired visual effect.
+#### Desired output
+![WhatsApp Image 2023-08-22 at 04 59 31](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/db23976e-a709-43b9-86aa-1de99caaa0e6)
+![WhatsApp Image 2023-08-22 at 04 59 30](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/9ce5aa9b-cf57-4193-a638-4db4817fc0c4)
