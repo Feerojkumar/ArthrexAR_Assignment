@@ -48,7 +48,7 @@ As with any other Unity project, go to Build Settings, select your target platfo
 
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/562e7c3e-13ae-4a41-95cc-732e8b314de4)
 
-## Approach - Use any image of choice for image tracking.
+## Image Tracking using AR Approach - Use any image of choice for image tracking.
 Created an empty sample scene, then added the Add the AR session and AR session Origin components in your scene. It contains a Camera and any GameObject s created from detected features, such as planes or point clouds.
 
 In AR session Origin, Added the ARTrackedIMageManager script. The tracked image manager is a type of trackable manager and performs 2D image tracking.
@@ -66,7 +66,7 @@ Also add the sparrow image to that ReferenceimageOject.
 GIve the name to the added image to sparrow. And specify the physical size and check the keep the texture at run time.
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/353b9dc5-2591-4165-8fb4-0fa2134bb1f4)
 
-## Approach - Project interactive art with particles which inherit image characteristics.
+## Project interactive art with particles which inherit image characteristics - Approach
 
 There are various approaches we can follow in order to create the particles which inherit image charachterstics. 
 For Example, create particles using below techniques and reuse that as a prefab. 
@@ -173,5 +173,9 @@ Now, when you instantiate this prefab in your scenes, the Particle System will e
 
 - Keep in mind that this technique provides a static shape for the particle emission. If you need more dynamic or complex shapes, you might need to use more advanced techniques or shaders. Additionally, experiment with the particle system settings to achieve the desired visual effect.
 #### Desired output
-![WhatsApp Image 2023-08-22 at 04 59 31](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/db23976e-a709-43b9-86aa-1de99caaa0e6)
 ![WhatsApp Image 2023-08-22 at 04 59 30](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/9ce5aa9b-cf57-4193-a638-4db4817fc0c4)
+![20230824_232659](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/5a4d7d5b-dfc4-41d8-841d-e0b987b483e3)
+
+## Use user interaction to move particle around and rebound back to original positions for static image.
+Uisng user input events along with physics forces and scripting. 
+This combination will allow you to achieve the desired effect of moving particles around and having them rebound back to their original positions.
