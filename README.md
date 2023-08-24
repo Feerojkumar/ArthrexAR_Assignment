@@ -1,7 +1,7 @@
 # ArthrexAR_Assignment
-This is a Augmented Reality (AR) Image tracking app which demonstrates creating particle effects overlay on top of an image. The app tracks an image in the scene and projects particles. Here we can use any any sample image of our choice for image tracking. And then Projected interactive art with particles which inherit image characteristics. 
+This is a Augmented Reality (AR) Image tracking app which demonstrates creating particle effects overlay on top of an image. The app tracks an image in the scene and projects particles which inherit image characteristics like shape and colours. Here we can use any any sample image of our choice for image tracking. And then Projected interactive art with particles which inherit image characteristics. 
 
-I have used the beautiful kingfisher/Sparrow bird image for this project.
+I have used the beautiful kingfisher bird image for this project.
 
 ![andrew-pons-lylCw4zcA7I-unsplash](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/58f281d0-f047-4149-a1b9-0bf76466e2d2)
 
@@ -25,7 +25,7 @@ Make sure you have all the below dependencies setup with this project.
 
 - You can build this project directly to any Android device. Once you build and run this app, ArthreX1.0 app will be installed on your device.
 
-- You can test this app by opening the ArthreX1.0 app from your Andoid device. The app start running and opens an AR camera view, just show it to the kingfisher/sparrow bird picture used and it will project the particle effects as shown below.
+- You can test this app by opening the ArthreX1.0 app from your Andoid device. The app start running and opens an AR camera view, just show it to the kingfisher bird picture used and it will project the particle effects as shown below.
   
   ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/83a9b4d8-fc2b-4093-8f11-1db26e4b7efa)
 
