@@ -134,7 +134,7 @@ Now we can reuse this particle system as a prefab and attach that prefab to the 
 
 Hoever, using a Sprite Renderer for particles in Unity may not provide the best result. Particle systems typically use textures as their source, not Sprite Renderers directly. Here's how we can achieve the effect like to track an image and generate particles that inherit the characteristics of the tracked image. :
 
-## Imae Trackign with Particles which inherit image characteristics - Approach
+## Image Tracking with Particles which inherit image characteristics - Approach
 To achieve a particle system that inherits a characterstics of an image, 
 you can use a technique called "Sprite-based Particle Emission." This approach involves using a grayscale image as an alpha map to determine where particles should be emitted in the particle system, creating a shape that matches the image. Here's how we can do it.
 
