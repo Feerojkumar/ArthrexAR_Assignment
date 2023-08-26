@@ -66,7 +66,7 @@ Also add the sparrow image to that ReferenceimageOject.
 GIve the name to the added image to sparrow. And specify the physical size and check the keep the texture at run time.
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/353b9dc5-2591-4165-8fb4-0fa2134bb1f4)
 
-## Project interactive art with particles which inherit image characteristics - Approach
+## Project interactive art with particles which inherit image shape - Approach
 
 There are various approaches we can follow in order to create the particles which inherit image charachterstics. 
 For Example, create particles using below techniques and reuse that as a prefab. 
@@ -134,7 +134,7 @@ Now we can reuse this particle system as a prefab and attach that prefab to the 
 
 Hoever, using a Sprite Renderer for particles in Unity may not provide the best result. Particle systems typically use textures as their source, not Sprite Renderers directly. Here's how we can achieve the effect like to track an image and generate particles that inherit the characteristics of the tracked image. :
 
-## Particles which inherit image characteristics - Approach
+## Imae Trackign with Particles which inherit image characteristics - Approach
 To achieve a particle system that inherits a characterstics of an image, 
 you can use a technique called "Sprite-based Particle Emission." This approach involves using a grayscale image as an alpha map to determine where particles should be emitted in the particle system, creating a shape that matches the image. Here's how we can do it.
 
