@@ -175,9 +175,8 @@ Drag and drop the grayscale image into the "Texture" field. Unity will use this 
 Now, when you instantiate this prefab in your scenes, the Particle System will emit particles based on the shape of the grayscale image. The white areas of the image will emit particles, creating a particle system that inherits its shape from the image.
 
 - Keep in mind that this technique provides a static shape for the particle emission. If you need more dynamic or complex shapes, you might need to use more advanced techniques or shaders. Additionally, experiment with the particle system settings to achieve the desired visual effect.
-- 
-#### Here is the desired output we want to achieve, Mobile screenshots provided below:
-![WhatsApp Image 2023-08-22 at 04 59 30](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/9ce5aa9b-cf57-4193-a638-4db4817fc0c4)
+  
+#### Here is the desired output we want to achieve, Mobile screenshot provided below:
 ![20230825_2343127379](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/8f607fd8-a01f-4b88-87ab-e8a517d7968a)
 
 ## User interaction to move particle around and rebound back to original positions for static image. - Approach
