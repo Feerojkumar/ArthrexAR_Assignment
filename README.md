@@ -166,7 +166,6 @@ Drag and drop the grayscale image into the "Texture" field. Unity will use this 
 #### Adjust Particle System Settings:
 
 - Adjust other particle system settings (such as size, speed, lifetime) to achieve the desired particle effect.
-![WhatsApp Image 2023-08-22 at 04 59 31](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/4180ef40-5811-4666-abd1-d07fefec15d7)
 ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/581c218d-16e2-4181-8275-5a0304a771b8)
 
 #### Create a Particle System Prefab:
@@ -176,7 +175,8 @@ Now, when you instantiate this prefab in your scenes, the Particle System will e
 
 - Keep in mind that this technique provides a static shape for the particle emission. If you need more dynamic or complex shapes, you might need to use more advanced techniques or shaders. Additionally, experiment with the particle system settings to achieve the desired visual effect.
   
-#### Here is the desired output we want to achieve, Mobile screenshot provided below:
+#### Here is the desired output we want to achieve, Mobile screenshots provided below:
+![WhatsApp Image 2023-08-22 at 04 59 31](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/4180ef40-5811-4666-abd1-d07fefec15d7)
 ![20230825_2343127379](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/8f607fd8-a01f-4b88-87ab-e8a517d7968a)
 
 ## User interaction to move particle around and rebound back to original positions for static image. - Approach
