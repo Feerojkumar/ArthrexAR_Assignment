@@ -134,8 +134,12 @@ Now we can reuse this particle system as a prefab and attach that prefab to the 
 
 Hoever, using a Sprite Renderer for particles in Unity may not provide the best result. Particle systems typically use textures as their source, not Sprite Renderers directly. Here's how we can achieve the effect like to track an image and generate particles that inherit the characteristics of the tracked image. :
 
-To achieve a particle system that inherits a shape from an image, you can use a technique called "Sprite-based Particle Emission." This approach involves using a grayscale image as an alpha map to determine where particles should be emitted in the particle system, creating a shape that matches the image. Here's how you can do it:
+## Particles which inherit image characteristics - Approach
+To achieve a particle system that inherits a characterstics of an image, 
+you can use a technique called "Sprite-based Particle Emission." This approach involves using a grayscale image as an alpha map to determine where particles should be emitted in the particle system, creating a shape that matches the image. Here's how we can do it.
 
+- Please note: To test the output of the image that tracks the image and generates the  Particles which inherit image characteristics, there is a new directory uploaded in the project files called ImageTrackingPaticle. Users can install the Arthrex_ParticleImageTracking.apk​ availabe in the same directory.
+  
 #### Prepare Your Grayscale Image:
 
 - You'll need a grayscale image where the white areas represent where particles should be emitted and the black areas represent where particles shouldn't be emitted. You can create this image using graphic design software or obtain it from other sources.
@@ -162,9 +166,8 @@ Drag and drop the grayscale image into the "Texture" field. Unity will use this 
 #### Adjust Particle System Settings:
 
 - Adjust other particle system settings (such as size, speed, lifetime) to achieve the desired particle effect.
-  ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/604ad257-1ebd-48e1-8124-999daa430ef5)
-  ![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/581c218d-16e2-4181-8275-5a0304a771b8)
-
+![WhatsApp Image 2023-08-22 at 04 59 31](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/4180ef40-5811-4666-abd1-d07fefec15d7)
+![image](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/581c218d-16e2-4181-8275-5a0304a771b8)
 
 #### Create a Particle System Prefab:
 
@@ -172,11 +175,13 @@ Drag and drop the grayscale image into the "Texture" field. Unity will use this 
 Now, when you instantiate this prefab in your scenes, the Particle System will emit particles based on the shape of the grayscale image. The white areas of the image will emit particles, creating a particle system that inherits its shape from the image.
 
 - Keep in mind that this technique provides a static shape for the particle emission. If you need more dynamic or complex shapes, you might need to use more advanced techniques or shaders. Additionally, experiment with the particle system settings to achieve the desired visual effect.
+- 
 #### Here is the desired output we want to achieve, Mobile screenshots provided below:
 ![WhatsApp Image 2023-08-22 at 04 59 30](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/9ce5aa9b-cf57-4193-a638-4db4817fc0c4)
-![20230824_232659](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/5a4d7d5b-dfc4-41d8-841d-e0b987b483e3)
+![20230825_2343127379](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/8f607fd8-a01f-4b88-87ab-e8a517d7968a)
 
 ## User interaction to move particle around and rebound back to original positions for static image. - Approach
 Now let us move the particle around and make them to rebounce back to its origianl positions.
 Using user input events along with physics forces and scripting. 
+
 This combination will allow us to achieve the desired effect of moving particles around and having them rebound back to their original positions.
