@@ -141,7 +141,9 @@ you can use a technique called "Sprite-based Particle Emission." This approach i
 - You can test this app by installing the Arthrex_ParticleImageTracking.apk​ availabe in the ImageTrackingPaticle directory. The app start running and opens an AR camera view, just show it to the kingfisher bird picture used and it will project the particle effects as shown below.
   
 - ![20230825_2343127379](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/8f607fd8-a01f-4b88-87ab-e8a517d7968a)
-  
+
+Here is the steps i have followed to achieve the desired output: 
+
 #### Prepare Your Grayscale Image:
 
 - You'll need a grayscale image where the white areas represent where particles should be emitted and the black areas represent where particles shouldn't be emitted. You can create this image using graphic design software or obtain it from other sources.
