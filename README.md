@@ -182,7 +182,8 @@ Now, when you instantiate this prefab in your scenes, the Particle System will e
 ![20230825_2343127379](https://github.com/Feerojkumar/ArthrexAR_Assignment/assets/140662095/8f607fd8-a01f-4b88-87ab-e8a517d7968a)
 
 ## User interaction to move particle around and rebound back to original positions for static image. - Approach
-Now let us move the particle around and make them to rebounce back to its origianl positions.
-Using user input events along with physics forces and scripting. 
-
-This combination will allow us to achieve the desired effect of moving particles around and having them rebound back to their original positions.
+To move the particles around and make them to rebounce back to its origianl positions. we need to use a various combinations to achive this result.
+- Using user input events
+- Physics forces
+- and scripting.
+- The above combination will allow us to achieve the desired effect of interacting and moving particles around and having them rebound back to their original positions. Due to lack of time, i have not provided the detailed approach here, Please contact me to undestand how this can be achieved.
